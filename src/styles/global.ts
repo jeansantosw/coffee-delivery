@@ -8,7 +8,14 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    color: red;
-    background: ${(props) => props.theme.colors['base-white']}
+    color: ${(props) => props.theme.colors['base-text']};
+    background: ${(props) => props.theme.colors['base-white']};
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body, input, textearea, button {
+    font-family: ${(props) => props.theme.fonts.regular};
+    font-size: ${(props) => props.theme.textSizes['text-regular-m']};
+    font-weight: 400;
   }
 `
