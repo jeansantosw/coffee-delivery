@@ -1,9 +1,10 @@
+import { IntroductionOfCoffee } from './components/IntroductionOfCoffee'
 import { HomeContainer } from './styles'
 
 export function Home() {
   return (
     <HomeContainer>
-      <h1>Hello Would</h1>
+      <IntroductionOfCoffee />
     </HomeContainer>
   )
 }

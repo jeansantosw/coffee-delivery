@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import introBackgroundImg from '../../../../assets/intro-background.png'
-// import { TitleText } from '../../../../components/Typography'
-// import { rgba } from 'polished'
+import introBackgroundImg from '../../../../assets/Intro-background.svg'
+import { TitleText } from '../../../../components/Typography'
+import { rgba } from 'polished'
 
 export const IntroContainer = styled.section`
   width: 100%;
